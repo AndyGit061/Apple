@@ -1,0 +1,185 @@
+.list{
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 7%;
+}
+.listItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.listItem img{
+    width: 85%;
+}
+.listItem-hover .listItemTitle{
+    color: #3888d7;
+}
+.listItemTitle{
+    font-size: 11px;
+    margin-top: 5px;
+    transition: all ease 0.3s;
+}
+.iphone-15-pro{
+    background: url("Assets/hero_iphone15pro__i70z9oz3hj2i_largetall.jpg");
+    margin-top: 4.4rem;
+}
+
+.title{
+    color: #fff;
+    text-align: center;
+    padding-top: 5.5rem;
+}
+.title-heading{
+    font-size: 5.6rem;
+    line-height: 1.07143;
+    letter-spacing: -.005rem;
+}
+.title-sub-heading{
+    font-size: 2.65rem;
+    margin-top: .6rem;
+    letter-spacing: .008rem;
+    font-weight: 400;
+}
+.title-price{
+    font-size: 1.7rem;
+    color: #ece6e6;
+    margin-top: .68rem;
+}
+.cta{
+    text-align: center;
+    margin-top: 1.8rem;
+}
+.cta-link{
+    color: #66bbff;
+    font-size: 2.1rem;
+    display: inline-block;
+}
+.cta-link:nth-child(2){
+    margin-left: 2.6rem;
+}
+
+.cta-link:hover{
+    border-bottom: 2px solid #66bbff;
+}
+.iphone-15{
+    background: url("Assets/hero_iphone15_announce__uuemlcwczn6u_largetall.jpg");
+    margin-top: 4.4rem;
+}
+.title-iphone-15{
+    color: #fff;
+    text-align: center;
+    padding-top: 5.5rem;
+}
+.title-heading-iphone-15{
+    font-size: 5.6rem;
+    line-height: 1.07143;
+    letter-spacing: -.005rem;
+}
+
+.title-sub-heading-iphone-15{
+    font-size: 2.65rem;
+    margin-top: .6rem;
+    letter-spacing: .008rem;
+    font-weight: 400;
+}
+.title-price-iphone-15{
+    font-size: 1.7rem;
+    color: #000;
+    margin-top: .68rem;
+}
+.title-dark{
+    color: #000;
+}
+.cta-link-darker{
+    color: #000;
+}
+.cta-link-darker:hover{
+    border-bottom-color: #0070c9;
+}
+
+.hero{
+    height: 69.2rem;
+    background-size: auto 73.6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: .6rem solid #fff;
+    border-bottom:.6rem solid #fff;
+}
+.iphone-15-pro{
+    border-top: none;
+}
+.iphone-15-se{
+    background: url("images/Apple-iPhoneSE-hero-3up-220308_big.jpg.slideshow-xlarge_2x.jpg");
+    margin-top: 4.4rem;
+}
+.title-sub-heading-iphone-15-se{
+    font-size: 2.65rem;
+    margin-top: .6rem;
+    letter-spacing: .008rem;
+    font-weight: 400;
+    color: #0070c9;
+}
+.iphone-15-se img{
+    width: 50%;
+}
+.list-product{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+h1{
+    margin: 20px 0;
+    font-size: 22px;
+}
+.item-image{
+    display: block;
+   overflow: hidden;
+}
+.item-image img:hover{
+    transform: scale(1.09);
+    transition: transform 0.3s linear;
+}
+.link{
+    display: flex;
+    gap: 2vw;
+}
+
+.link a{
+    text-decoration: none;
+    color: rgb(26, 141, 242);
+    font-size: 1.2vw;
+}
+.store {
+    display: flex;
+}
+
+.store img{
+    height: 22px;
+}
+.menu-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu-list ul{
+    list-style: none;
+}
+.store{
+    margin-left: 5rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.menu-items{
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.099);
+}
+.footer p{
+    text-align: center;
+}
+.footer{
+    padding: 20px;
+}
+
